@@ -1,0 +1,88 @@
+MOV #0, 30
+MOV #1, 23
+MOV #2, 4
+MOV #3, 56
+MOV #4, 34
+MOV #5, 56
+MOV #6, 89
+MOV #7, 32
+MOV #8, 45
+MOV #9, 25
+MOV R1, 10  ; Loop control variable
+MOV #0, R2  ; Current max number 1
+SUB R2, #1
+JPN R2, 19
+MOV #0, R2   
+MOV #1, R3   
+MOV R2, #1
+MOV R3, #0
+MOV #1, R2 ; Current max number 2
+SUB R2, #2
+JPN R2, 26 
+MOV #1, R2
+MOV #2, R3
+MOV R2, #2
+MOV R3, #1 
+MOV #2, R2 ; Current max number 3
+SUB R2, #3
+JPN R2, 33
+MOV #2, R2
+MOV #3, R3
+MOV R2, #3
+MOV R3, #2
+MOV #3, R2 ; Current max number 4
+SUB R2, #4
+JPN R2, 40
+MOV #4, R2
+MOV #3, R3
+MOV R2, #3
+MOV R3, #4 
+MOV #4, R2 ; Current max number 5
+SUB R2, #5
+JPN R2, 47
+MOV #5, R2
+MOV #4, R3
+MOV R2, #4
+MOV R3, #5
+MOV #5, R2 ; Current max number 6
+SUB R2, #6
+JPN R2, 54
+MOV #6, R2
+MOV #5, R3
+MOV R2, #5
+MOV R3, #6
+MOV #6, R2 ; Current max number 7
+SUB R2, #7
+JPN R2, 61
+MOV #7, R2 
+MOV #6, R3
+MOV R2, #6
+MOV R3, #7
+MOV #7, R2 ; Current max number 8
+SUB R2, #8
+JPN R2, 68
+MOV #8, R2
+MOV #7, R3
+MOV R2, #7
+MOV R3, #8
+MOV #8, R2 ; Current max number 9
+SUB R2, #9
+JPN R2, 75
+MOV #9, R2
+MOV #8, R3
+MOV R2, #8
+MOV R3, #9
+SUB R1, 1 ; Increase loop control variable
+JMP R1, 78
+JMP 12 ; Loop
+PRN #0
+PRN #1
+PRN #2
+PRN #3
+PRN #4
+PRN #5
+PRN #6
+PRN #7
+PRN #8
+PRN #9
+HLT

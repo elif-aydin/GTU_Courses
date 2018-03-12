@@ -1,0 +1,6 @@
+server programını çalıştırmak için
+./server 'portNumber' 'thpool size'
+
+
+clients programını çalıştırmak için
+./clients 'matrix row' 'matrix col' 'numOfClients' 'portNumber'

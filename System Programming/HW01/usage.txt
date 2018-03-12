@@ -1,0 +1,7 @@
+/*System Programming HW01
+
+
+1- Konsoldan ./list string filename komutlari girilerek calisir.
+2- Eger parametrelerde hata varsa
+uyarı mesajı verir ve çıkış  yapar.
+3- verilen kelimeyi dosyada arar ve her buldugu kelime icin ilk satir ve sutunu return eder. 

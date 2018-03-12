@@ -1,0 +1,9 @@
+/*System Programming HW02
+
+
+1- Konsoldan ./listdir string filename(<directoryname>) komutlari girilerek calisir.
+2- Eger parametrelerde hata varsa
+uyarı mesajı verir ve çıkış  yapar.
+3- verilen kelimeyi dosyada arar ve her buldugu kelime icin ilk satir ve sutunu olusturulan log.log isimli dosyaya atar.
+4- Buldugu toplam karakter sayisini da log dosyasinin sonuna yazar. 
+5- Olusturulan log dosyasi program her basladiginda kendini temizlemektedir.

@@ -1,0 +1,12 @@
+MOV R1, 0   ;Initialize register to keep sum of squares
+MOV R2, 10  ;Find the the sum of squares till 10.
+MOV R2, R3  ;Set the constant increment value.
+ADD R1, R2  ;Add the "n" for "n" times to find square of "n"
+SUB R3, 1   ;
+JMP R3, 8    
+JMP 4       ;Square Iteration
+SUB R2, 1   ;Next number
+JMP R2, 11  ;
+JMP 3       ;Number iteration.
+PRN R1      ;Print the sum of squares
+HLT
