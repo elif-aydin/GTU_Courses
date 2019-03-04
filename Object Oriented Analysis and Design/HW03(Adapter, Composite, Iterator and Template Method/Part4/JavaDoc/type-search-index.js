@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"DiscreteCosineTransform"},{"p":"<Unnamed>","l":"DiscreteFourierTransform"},{"p":"<Unnamed>","l":"DiscreteTransformation"},{"p":"<Unnamed>","l":"Main"}]

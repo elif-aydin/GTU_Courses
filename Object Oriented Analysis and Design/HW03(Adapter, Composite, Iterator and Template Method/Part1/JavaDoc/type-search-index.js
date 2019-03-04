@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"ModernPayment"},{"p":"<Unnamed>","l":"ModernPaymentImpl"},{"p":"<Unnamed>","l":"PaymentAdapter"},{"p":"<Unnamed>","l":"TurboPayment"}]
